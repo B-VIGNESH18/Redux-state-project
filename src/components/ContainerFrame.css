@@ -1,0 +1,44 @@
+.frame-inner {
+  position: absolute;
+  top: 40px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.notes-app {
+  position: absolute;
+  top: 65px;
+  left: 69px;
+  line-height: 33.6px;
+  font-weight: 600;
+}
+.instance-wrapper {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-div,
+.frame1 {
+  position: absolute;
+  top: 162px;
+  left: 0;
+  width: 354px;
+  height: 52px;
+}
+.frame1 {
+  top: 0;
+  background-color: var(--secondary);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--accent);
+  font-family: var(--h1);
+}
